@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.kit{
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
