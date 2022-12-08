@@ -34,6 +34,8 @@ openhat.addEventListener("click", ()=>{
     openhatSfx.play()
 })
 ride.addEventListener("click", ()=>{
+    rideSfx.pause()
+    rideSfx.currentTime = 0
     rideSfx.play()
 })
 snare.addEventListener("click", ()=>{
